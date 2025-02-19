@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - name: mensagem
-        run: echo backend address ====> ${{inputs.backend-url}}
+        run: echo backend address [${{inputs.backend-url}}]
